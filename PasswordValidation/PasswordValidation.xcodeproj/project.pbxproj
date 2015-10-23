@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F0DD33B1BDACEF000CAA368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DD33A1BDACEF000CAA368 /* main.m */; };
+		9F0DD33E1BDACEF000CAA368 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DD33D1BDACEF000CAA368 /* AppDelegate.m */; };
+		9F0DD3411BDACEF000CAA368 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DD3401BDACEF000CAA368 /* ViewController.m */; };
+		9F0DD3441BDACEF000CAA368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0DD3421BDACEF000CAA368 /* Main.storyboard */; };
+		9F0DD3461BDACEF000CAA368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0DD3451BDACEF000CAA368 /* Assets.xcassets */; };
+		9F0DD3491BDACEF000CAA368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0DD3471BDACEF000CAA368 /* LaunchScreen.storyboard */; };
+		9F0DD3541BDACEF000CAA368 /* PasswordValidationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DD3531BDACEF000CAA368 /* PasswordValidationTests.m */; };
+		9F0DD35F1BDACEF000CAA368 /* PasswordValidationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DD35E1BDACEF000CAA368 /* PasswordValidationUITests.m */; };
+		9F0DD36E1BDACF5900CAA368 /* Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DD36D1BDACF5900CAA368 /* Validation.m */; settings = {ASSET_TAGS = (); }; };
+		9F0DD3701BDAEEC100CAA368 /* blacklist.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9F0DD36F1BDAEEC100CAA368 /* blacklist.rtf */; settings = {ASSET_TAGS = (); }; };
+		9F0DD3751BDAF47800CAA368 /* blacklist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9F0DD3741BDAF47800CAA368 /* blacklist.txt */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F0DD3501BDACEF000CAA368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F0DD32E1BDACEF000CAA368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F0DD3351BDACEF000CAA368;
+			remoteInfo = PasswordValidation;
+		};
+		9F0DD35B1BDACEF000CAA368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F0DD32E1BDACEF000CAA368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F0DD3351BDACEF000CAA368;
+			remoteInfo = PasswordValidation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F0DD3361BDACEF000CAA368 /* PasswordValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0DD33A1BDACEF000CAA368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F0DD33C1BDACEF000CAA368 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F0DD33D1BDACEF000CAA368 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F0DD33F1BDACEF000CAA368 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F0DD3401BDACEF000CAA368 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F0DD3431BDACEF000CAA368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F0DD3451BDACEF000CAA368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F0DD3481BDACEF000CAA368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F0DD34A1BDACEF000CAA368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0DD34F1BDACEF000CAA368 /* PasswordValidationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordValidationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0DD3531BDACEF000CAA368 /* PasswordValidationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordValidationTests.m; sourceTree = "<group>"; };
+		9F0DD3551BDACEF000CAA368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0DD35A1BDACEF000CAA368 /* PasswordValidationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordValidationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0DD35E1BDACEF000CAA368 /* PasswordValidationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordValidationUITests.m; sourceTree = "<group>"; };
+		9F0DD3601BDACEF000CAA368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0DD36C1BDACF5900CAA368 /* Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validation.h; sourceTree = "<group>"; };
+		9F0DD36D1BDACF5900CAA368 /* Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validation.m; sourceTree = "<group>"; };
+		9F0DD36F1BDAEEC100CAA368 /* blacklist.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = blacklist.rtf; sourceTree = "<group>"; };
+		9F0DD3741BDAF47800CAA368 /* blacklist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blacklist.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F0DD3331BDACEF000CAA368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0DD34C1BDACEF000CAA368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0DD3571BDACEF000CAA368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F0DD32D1BDACEF000CAA368 = {
+			isa = PBXGroup;
+			children = (
+				9F0DD3381BDACEF000CAA368 /* PasswordValidation */,
+				9F0DD3521BDACEF000CAA368 /* PasswordValidationTests */,
+				9F0DD35D1BDACEF000CAA368 /* PasswordValidationUITests */,
+				9F0DD3371BDACEF000CAA368 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F0DD3371BDACEF000CAA368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F0DD3361BDACEF000CAA368 /* PasswordValidation.app */,
+				9F0DD34F1BDACEF000CAA368 /* PasswordValidationTests.xctest */,
+				9F0DD35A1BDACEF000CAA368 /* PasswordValidationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F0DD3381BDACEF000CAA368 /* PasswordValidation */ = {
+			isa = PBXGroup;
+			children = (
+				9F0DD36C1BDACF5900CAA368 /* Validation.h */,
+				9F0DD36D1BDACF5900CAA368 /* Validation.m */,
+				9F0DD33C1BDACEF000CAA368 /* AppDelegate.h */,
+				9F0DD33D1BDACEF000CAA368 /* AppDelegate.m */,
+				9F0DD33F1BDACEF000CAA368 /* ViewController.h */,
+				9F0DD3401BDACEF000CAA368 /* ViewController.m */,
+				9F0DD3421BDACEF000CAA368 /* Main.storyboard */,
+				9F0DD3451BDACEF000CAA368 /* Assets.xcassets */,
+				9F0DD3471BDACEF000CAA368 /* LaunchScreen.storyboard */,
+				9F0DD34A1BDACEF000CAA368 /* Info.plist */,
+				9F0DD3391BDACEF000CAA368 /* Supporting Files */,
+				9F0DD36F1BDAEEC100CAA368 /* blacklist.rtf */,
+				9F0DD3731BDAF35A00CAA368 /* Resources */,
+			);
+			path = PasswordValidation;
+			sourceTree = "<group>";
+		};
+		9F0DD3391BDACEF000CAA368 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F0DD33A1BDACEF000CAA368 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F0DD3521BDACEF000CAA368 /* PasswordValidationTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F0DD3531BDACEF000CAA368 /* PasswordValidationTests.m */,
+				9F0DD3551BDACEF000CAA368 /* Info.plist */,
+			);
+			path = PasswordValidationTests;
+			sourceTree = "<group>";
+		};
+		9F0DD35D1BDACEF000CAA368 /* PasswordValidationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F0DD35E1BDACEF000CAA368 /* PasswordValidationUITests.m */,
+				9F0DD3601BDACEF000CAA368 /* Info.plist */,
+			);
+			path = PasswordValidationUITests;
+			sourceTree = "<group>";
+		};
+		9F0DD3731BDAF35A00CAA368 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F0DD3741BDAF47800CAA368 /* blacklist.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F0DD3351BDACEF000CAA368 /* PasswordValidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0DD3631BDACEF000CAA368 /* Build configuration list for PBXNativeTarget "PasswordValidation" */;
+			buildPhases = (
+				9F0DD3321BDACEF000CAA368 /* Sources */,
+				9F0DD3331BDACEF000CAA368 /* Frameworks */,
+				9F0DD3341BDACEF000CAA368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordValidation;
+			productName = PasswordValidation;
+			productReference = 9F0DD3361BDACEF000CAA368 /* PasswordValidation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F0DD34E1BDACEF000CAA368 /* PasswordValidationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0DD3661BDACEF000CAA368 /* Build configuration list for PBXNativeTarget "PasswordValidationTests" */;
+			buildPhases = (
+				9F0DD34B1BDACEF000CAA368 /* Sources */,
+				9F0DD34C1BDACEF000CAA368 /* Frameworks */,
+				9F0DD34D1BDACEF000CAA368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F0DD3511BDACEF000CAA368 /* PBXTargetDependency */,
+			);
+			name = PasswordValidationTests;
+			productName = PasswordValidationTests;
+			productReference = 9F0DD34F1BDACEF000CAA368 /* PasswordValidationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F0DD3591BDACEF000CAA368 /* PasswordValidationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0DD3691BDACEF000CAA368 /* Build configuration list for PBXNativeTarget "PasswordValidationUITests" */;
+			buildPhases = (
+				9F0DD3561BDACEF000CAA368 /* Sources */,
+				9F0DD3571BDACEF000CAA368 /* Frameworks */,
+				9F0DD3581BDACEF000CAA368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F0DD35C1BDACEF000CAA368 /* PBXTargetDependency */,
+			);
+			name = PasswordValidationUITests;
+			productName = PasswordValidationUITests;
+			productReference = 9F0DD35A1BDACEF000CAA368 /* PasswordValidationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F0DD32E1BDACEF000CAA368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Magnus Kraepelien";
+				TargetAttributes = {
+					9F0DD3351BDACEF000CAA368 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9P9KJHA58S;
+					};
+					9F0DD34E1BDACEF000CAA368 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9P9KJHA58S;
+						TestTargetID = 9F0DD3351BDACEF000CAA368;
+					};
+					9F0DD3591BDACEF000CAA368 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9P9KJHA58S;
+						TestTargetID = 9F0DD3351BDACEF000CAA368;
+					};
+				};
+			};
+			buildConfigurationList = 9F0DD3311BDACEF000CAA368 /* Build configuration list for PBXProject "PasswordValidation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F0DD32D1BDACEF000CAA368;
+			productRefGroup = 9F0DD3371BDACEF000CAA368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F0DD3351BDACEF000CAA368 /* PasswordValidation */,
+				9F0DD34E1BDACEF000CAA368 /* PasswordValidationTests */,
+				9F0DD3591BDACEF000CAA368 /* PasswordValidationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F0DD3341BDACEF000CAA368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0DD3701BDAEEC100CAA368 /* blacklist.rtf in Resources */,
+				9F0DD3491BDACEF000CAA368 /* LaunchScreen.storyboard in Resources */,
+				9F0DD3461BDACEF000CAA368 /* Assets.xcassets in Resources */,
+				9F0DD3441BDACEF000CAA368 /* Main.storyboard in Resources */,
+				9F0DD3751BDAF47800CAA368 /* blacklist.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0DD34D1BDACEF000CAA368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0DD3581BDACEF000CAA368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F0DD3321BDACEF000CAA368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0DD3411BDACEF000CAA368 /* ViewController.m in Sources */,
+				9F0DD33E1BDACEF000CAA368 /* AppDelegate.m in Sources */,
+				9F0DD36E1BDACF5900CAA368 /* Validation.m in Sources */,
+				9F0DD33B1BDACEF000CAA368 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0DD34B1BDACEF000CAA368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0DD3541BDACEF000CAA368 /* PasswordValidationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0DD3561BDACEF000CAA368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0DD35F1BDACEF000CAA368 /* PasswordValidationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F0DD3511BDACEF000CAA368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F0DD3351BDACEF000CAA368 /* PasswordValidation */;
+			targetProxy = 9F0DD3501BDACEF000CAA368 /* PBXContainerItemProxy */;
+		};
+		9F0DD35C1BDACEF000CAA368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F0DD3351BDACEF000CAA368 /* PasswordValidation */;
+			targetProxy = 9F0DD35B1BDACEF000CAA368 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F0DD3421BDACEF000CAA368 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F0DD3431BDACEF000CAA368 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F0DD3471BDACEF000CAA368 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F0DD3481BDACEF000CAA368 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F0DD3611BDACEF000CAA368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F0DD3621BDACEF000CAA368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F0DD3641BDACEF000CAA368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PasswordValidation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreppe.tutteroyal.PasswordValidation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F0DD3651BDACEF000CAA368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PasswordValidation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreppe.tutteroyal.PasswordValidation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F0DD3671BDACEF000CAA368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PasswordValidationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreppe.tutteroyal.PasswordValidationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordValidation.app/PasswordValidation";
+			};
+			name = Debug;
+		};
+		9F0DD3681BDACEF000CAA368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PasswordValidationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreppe.tutteroyal.PasswordValidationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordValidation.app/PasswordValidation";
+			};
+			name = Release;
+		};
+		9F0DD36A1BDACEF000CAA368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PasswordValidationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreppe.tutteroyal.PasswordValidationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PasswordValidation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9F0DD36B1BDACEF000CAA368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PasswordValidationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreppe.tutteroyal.PasswordValidationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PasswordValidation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F0DD3311BDACEF000CAA368 /* Build configuration list for PBXProject "PasswordValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0DD3611BDACEF000CAA368 /* Debug */,
+				9F0DD3621BDACEF000CAA368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0DD3631BDACEF000CAA368 /* Build configuration list for PBXNativeTarget "PasswordValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0DD3641BDACEF000CAA368 /* Debug */,
+				9F0DD3651BDACEF000CAA368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F0DD3661BDACEF000CAA368 /* Build configuration list for PBXNativeTarget "PasswordValidationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0DD3671BDACEF000CAA368 /* Debug */,
+				9F0DD3681BDACEF000CAA368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F0DD3691BDACEF000CAA368 /* Build configuration list for PBXNativeTarget "PasswordValidationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0DD36A1BDACEF000CAA368 /* Debug */,
+				9F0DD36B1BDACEF000CAA368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F0DD32E1BDACEF000CAA368 /* Project object */;
+}
